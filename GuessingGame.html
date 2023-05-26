@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="GuessingGame.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="board">
+            <div class="title">
+                <h1>Guessing Number</h1>
+                <div class="intro">
+                    <h3>Guess number between 1 to 10</h4>
+                </div>
+
+                <input type="text" id="input" value="" placeholder="Enter number">
+                <div class="nums">
+                    <div class="row">
+                        <button id="num">0</button>
+                        <button id="num">1</button>
+                        <button id="num">2</button>
+                    </div>
+                    <div class="row">
+                        <button id="num">3</button>
+                        <button id="num">4</button>
+                        <button id="num">5</button>
+                    </div>
+                    <div class="row">
+                        <button id="num">6</button>
+                        <button id="num">7</button>
+                        <button id="num">8</button>
+                    </div>
+                    <button class="nine" id="num">9</button>
+                    <button id="reset" onclick="Reset()">Reset</button>
+                    <div class="gg">
+                        <button id="guess">Guess</button>
+                    </div>
+                </div>
+
+
+                <div id="result">Result</div>
+                <div class="back">
+                    <a
+                        href="https://shoya20.github.io/testt/?fbclid=IwAR3Zilf-HWslORrDea8ZMSDBI1_sYrYGtqGr1HJFNH7U8E35O1h9HNVZQA4"><button>Go
+                            back</button> </a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    </div>
+
+    <script src="GuessingGame.js"></script>
+</body>
+
+</html>

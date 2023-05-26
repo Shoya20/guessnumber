@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    animation: bg 15s infinite ease-in-out;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@keyframes bg {
+    0% {
+        background-color: rgb(87, 6, 6);
+    }
+
+    25% {
+        background-color: rgb(8, 2, 86);
+    }
+
+    50% {
+        background-color: rgb(46, 2, 60);
+    }
+
+    75% {
+        background-color: rgb(61, 4, 85);
+    }
+
+    100% {
+        background-color: rgb(87, 6, 6);
+    }
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    width: 400px;
+    height: 700px;
+    background-color: rgb(6, 2, 45);
+    border-radius: 30px;
+    box-shadow: 0 0 10px #fff, 0 0 20px #863333, 0 0 30px #440b0b;
+    /* set the glow and color */
+}
+.title {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    margin-top: 8%;
+}
+.title h1{
+    animation: text 3s infinite ease-in-out;
+}
+@keyframes text {
+    0% {
+        color: rgb(90, 255, 192);
+    }
+
+    25% {
+        color: rgb(136, 128, 255);
+    }
+
+    50% {
+        color: rgb(221, 107, 255);
+    }
+
+    75% {
+        color: rgb(90, 216, 254);
+    }
+
+    100% {
+        color: rgb(90, 255, 192);
+    }
+}
+.intro{
+    margin-top: 5%;
+    color: antiquewhite;
+}
+#result{
+    margin-top: 5%;
+    width: 300px;
+    height: 50px;
+    padding-top: 3%;
+    font-size: 20px;
+    font-weight: bold;
+}
+#input{
+    margin-top: 5%;
+    height: 50px;
+    width: 270px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 20px;
+    outline: none;
+    background-color: rgb(102, 192, 212);
+    outline: none;
+    border: none;
+}
+#reset{
+    margin-top: 5%;
+margin-left: 5%;
+    width: 140px;
+    height: 60px;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    background-color: rgb(235, 67, 67);
+    color:antiquewhite;
+    border-radius: 30px;
+}
+.row button{
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(67, 235, 235);
+    outline: none;
+    border: none;
+    font-size: 30px;
+}
+.nine{
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(67, 235, 235);
+    outline: none;
+    border: none;
+    font-size: 30px;
+}
+#guess{
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+    width:250px;
+    height: 60px;
+    background-color: rgb(67, 235, 129);
+    outline: none;
+    border: none;
+    font-size: 30px;
+}
+.back button{
+    border-radius: 10px;
+margin-top: 5%;
+    margin-left: 5%;
+    width:150px;
+    height: 40px;
+    background-color: rgb(58, 67, 173);
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
